@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-primary: #2680eb;
+  --color-primary-100: #deecfc;
+  --color-primary-200: #afcff7;
+  --color-primary-300: #75b1fc;
+  --color-primary-400: #4d9bfa;
+  --color-primary-500: #1561bb;
+  --color-primary-600: #123f74;
+  --color-primary-700: #0a2b50;
+  --color-secondary: #edf2f7;
+}
+
+/* Scroll Style */
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-gray-300 border border-gray-100;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
